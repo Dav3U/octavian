@@ -1,10 +1,10 @@
 
 
-var links =document.querySelectorAll("a")
+const links =document.querySelectorAll("a")
 
 
 document.getElementById("toggle").onclick = changeBack;
-var mode = document.getElementById("toggle")
+const mode = document.getElementById("toggle")
 
 
 function changeBack()
@@ -32,3 +32,11 @@ function changeBack()
      }
 
 }
+
+document.getElementById('modeIcon').addEventListener('click',()=>{
+    modeChange();  
+  })
+ 
+   const colorMode = window.matchMedia("(prefers-color-scheme: dark)").matches ?
+  "dark" :
+  "light";

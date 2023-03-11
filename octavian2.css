@@ -1,9 +1,9 @@
 body{
     /* background: rgba(26, 25, 25, 0.11); */
-    background: linear-gradient( to right, #9966ffbd, grey);
+    /* background: linear-gradient( to right, #9966ffbd, grey);
     font-size: 1vw;
     color: black;
-    font-family: sans-serif;
+    font-family: sans-serif; */
 }
 
 *{
@@ -12,25 +12,23 @@ body{
 }
 
 .head{
-    /* color: white; */
     width: 95%;
-    margin: 5% auto 0% auto ;
 }
 
 .pgraph{
     font-size: 3em;
-    margin: 0;
+
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 }
 
 .bodydiv{
-    height: 800px;
+    height: 100vh;
     /* border: 1px solid red ; */
     width: 100%;
     /* display: flex; */
     width: 95%;
-    margin: 0% auto ;
+
     background:white;
 
 
@@ -46,7 +44,7 @@ body{
 
 .bar{
     height: 100%;
-    width: 10%;
+    /* width: 5%; */
     /* border: 1px solid black; */
     background: linear-gradient(to top, white,#7d3cfdbd,#b782ed);
 }
@@ -54,11 +52,11 @@ body{
 .pgraph-section1, .pgraph-section2{
     width: 50%;
     /* border: 1px solid black; */
-    margin: 30px 5%;
+
 }
 
 .pgraph-section1 h1{
-    /* margin-left: 15%; */
+
     width: 50%;
     height: 80%;
     font-size: 2.5vw;
@@ -70,23 +68,19 @@ body{
 
 .pgraph-section1 p{
     font-weight: bold;
-
 }
 
 li a{
     color: black;
     text-decoration: none;
     display: block;
-    margin: 10px 20px;
-    padding: 5px;
+    text-align: center;
+    padding: 10px;
     font-weight: bold;
-    /* border:1px solid white; */
-    font-size: small;
-    display: inline-block;
-    /* width: 10%; */ 
-    /* padding :1%; */
-}
 
+    width: auto;
+    
+}
 
 
 ul{
@@ -96,7 +90,7 @@ ul{
     /* height: 100%; */
     width: 100%;
     list-style-type: none;
-    margin: 0;
+
     padding: 0;
     justify-content: center;
    
@@ -104,7 +98,7 @@ ul{
 
 .pgraph-section2 p{
     width:50%;
-    margin: 15% auto;
+
     line-height: 20px;
 
 }
@@ -121,7 +115,7 @@ ul{
     width: 100%;
     height: 20%;
     text-align: center;
-    margin:50% 0px;
+
     /* border: 1px solid black; */
 
 }
@@ -135,9 +129,7 @@ ul{
 }
 
 .img-section1,.img-section2{
-    /* width: 50%; */
-    /* border: 1px solid black; */
-    margin: 30px 5%;
+
     display: flex;
     justify-content: center;
     position: relative;
@@ -145,17 +137,14 @@ ul{
 }
 
 .abs1, .abs2, .abs3{
-    /* margin: 20px; */
     position: absolute;
-    /* width: 5%; */
     height: 40%;
 }
 
 .img{
     width: 180px;
-    
-    /* margin: 20px; */
 }
+
 .abs1{
     top: 80px;
     right: 0;
@@ -187,7 +176,7 @@ ul{
     }
 
     .img-section2{
-        margin: 0;
+
         /* position: relative; */
         background: linear-gradient(to top white,pink);
     }
@@ -199,7 +188,7 @@ ul{
 
     li a:hover{
              background: linear-gradient(to right,#7d3cfdbd,#b782ed);
-             /* background-color: ; */
+             background-color: ;
          }
     
     .change

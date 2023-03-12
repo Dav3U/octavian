@@ -79,7 +79,7 @@
   #offcanvasNavbar{
     padding-top: 1%;
     text-align: center;
-    width:70vw ;
+    /* width:65vw ; */
   }
 
   /* #navbarBrand, .brandIcon{
@@ -104,14 +104,52 @@
 
   #landingDiv{
     
-    /* background-image: url(./var-headset-4.jpg); */
-    /* color: white;
-    background: linear-gradient(  to  right, #100130f8,#170246);
-    background-repeat: no-repeat;
+    /* background-image: url(./assets/images/vr-img-3.png); */
+
+    /* background: linear-gradient(
+      rgba(0,0,0,0.1), rgba(0,0,0,0.1)),url(./assets/images/vr-img-3.png); */
+
+    /* background-image: url(https://i.pinimg.com/originals/5c/e9/72/5ce9729bd7ae21ee062af113a2a1fd1d.jpg); */
+    /* opacity: 90%; */
+    /* width: 400px; */
+    text-align: center;
+    padding: 0;
+
+    /* justify-content: center; */
+    /* align-items: center; */
+
+
+    /* color: white; */
+    /* background: linear-gradient(  to  right, #100130f8,#170246); */
+    /* background-repeat: no-repeat;
     background-size: cover;
     background-position: center; */
 
     
   }
 
- 
+  
+  #img1{
+    width: 400px;
+  }
+#shopNowBtn:hover{
+  background-color: #333;
+
+  color: rgba(255, 255, 255, 0.841);
+}
+#offcanvasNavbarLabel{
+  /* font-size: 2vw; */
+}
+
+.writeup{
+  /* background-color: rgba(0, 0, 0, .05); */
+}
+/* #offcanvasNavbarLabel{
+  display: inline;
+} */
+/* li{
+  display: inline-block
+} */
+/* .navbar-nav{
+  text-align: left;
+} */

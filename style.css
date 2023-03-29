@@ -94,6 +94,7 @@
     color: #210460;
 
   }
+
   .set{
     display: inline;
   }
@@ -106,13 +107,15 @@
   }
 
   #main{
+
     /* font-size: 2vw; */
   }
 
   .topic{
     font-family: copperplate;
+    
     /* font-weight: bold; */
-    padding:10px;
+    /* padding:10px; */
   }
 
 
@@ -137,12 +140,12 @@
     min-height: 300px;
     }
 
-    #img1{
-      width: 70%;
+    /* #img1{
+      width: 100%;
     }
     #img2{
-      width: 70%;
-    }
+      width: 100%;
+    } */
 }
 @media screen and (max-width: 991px ) {
  
@@ -153,11 +156,20 @@
 }
 
   #img1{
-    /* width: 75%; */
-    padding: 20px;
+    width: 85%;
+    padding: 15px;
   }
 
- 
+  #img2{
+      /* border-radius: 10px; */
+      /* box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); */
+      width: 80%;
+  }
+
+ #img3{
+  
+  width: 80%;
+}
 
 #shopNowBtn{
   font-size:larger;
@@ -170,16 +182,23 @@
 
   color: rgba(255, 255, 255, 0.841);
 }
+
 #offcanvasNavbarLabel{
   /* font-size: 2vw; */
 }
 
-.writeup{
+.landingWriteup{
+
   font-size: 1.4em;
   /* background-color: rgba(0, 0, 0, .05); */
   /* top: 1% */
   /* width: 40%; */
 }
+
+.writeup{
+  text-align: left;
+}
+
 
 div .imp{
  
@@ -190,9 +209,9 @@ div .imp2{
 
 }
 
-#secondDiv{
+#secondDiv, #thirdDiv{
 
-  min-height: 800px;
+  min-height: 600px;
 
 }
 
@@ -201,10 +220,21 @@ div .imp2{
   width: 40%;
 } */
 
-#controllerDiv
+#controllerDiv{
+  border-radius: 150px;
+}
+
+
+#secondRowImg, #thirdWriteup, #secondWriteup, #thirdRowImg
 {
 
   display: flex;
    align-items: center;
     justify-content: center;
+}
+
+
+
+.round{
+/* border-radius: 70%; */
 }

@@ -20,7 +20,7 @@
 </head>
 
 <body >
-          <nav class="navbar navbar-expand-lg navbar-expand-md ">
+          <nav class=" navbar navbar-expand-lg navbar-expand-md bg-body-tertiary">
             <div class="container-fluid ">
               <a class="navbar-brand d-lg-none d-md-none" href="#">Octavian </a>
 
@@ -39,7 +39,7 @@
                 
                 <div class="offcanvas-body ">
                   
-                  <ul class="navbar-nav mx-auto ">
+                  <ul class="navbar-nav mx-auto " style="text-align: left;">
                     <a class="navbar-brand d-none d-lg-block" href="#">Octavian</a>
 
                     <li class="nav-item">
@@ -47,11 +47,7 @@
                     </li>
                     <li class="nav-item">
                       <a class="nav-link" href="#">Features</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">About</a>
-                    </li>
-                    <li class="nav-item dropdown">
+                    </li> <li class="nav-item dropdown">
                       <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Color Mode
                       </a>
@@ -65,6 +61,10 @@
                         <li><a class="dropdown-item" href="#">Something else here</a></li> -->
                       </ul>
                     </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">About</a>
+                    </li>
+                   
                   </ul>
                
                 </div>
@@ -75,52 +75,48 @@
 
       <main id="main" class="container-fluid ">
 
-        <div class="row  me-md-3 pt-3 px-3 px-md-5 text-center overflow-hidden">
+        <div class="row me-md-3 pt-3 px-3 px-md-5 text-center overflow-hidden">
 
-          <div class="col-lg-12 text-center ">
+          <div class="col-lg-12 text-center sticky-top ">
 
             <h1 class="topic">DIVE INTO VIRTUAL REALITY</h1>
 
           </div>
 
 
-          <div  class="col-lg-12"  id="landingDiv">
-            <img src="./assets/images/vr-img-5.png" alt="" id="img1">
+          <div  class="col-lg-12 "  id="landingDiv">
+            <img src="./assets/images/vr-img-5.png" alt="" id="" class="">
             
             
           </div>
 
           <div class="imp border-bottom">
 
-          <div class="col-md-8 p-lg-5 mx-auto pb-4 text-center " >
+          <div class="col-md-8 p-lg-5 mx-auto text-center p-4" >
 
               
               
-              <p class="landingWriteup p-2 ">Experience immersive worlds like never before with the cutting-edge virtual reality headset, complete with 360-degree viewing and high-resolution graphics.</p>
+              <p class="landingWriteup p-1 ">Experience immersive worlds like never before with the cutting-edge virtual reality headset, complete with 360-degree viewing and high-resolution graphics.</p>
               
               <a class="btn btn-outline-secondary" href="#" id="shopNowBtn">Shop Now</a>
 
-            <!-- <div class="product-device shadow-sm d-none d-md-block"></div>
-            <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div> -->
-
-
-
-
+        
 
 
         </div>
       </div>
-</div>
+        </div>
       
       
-        <!-- <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3 "> -->
+      
           
-          <div class=" p-3 me-md-3 pt-3 px-3 px-md-5 text-center overflow-hidden border-bottom row" id="secondDiv">
+          <div class=" me-md-3 pt-3 px-3 px-md-5 text-center border-bottom overflow-hidden row" id="secondDiv">
 
-            <div class="col-lg-6 my-3 p-5 " id="secondWriteup" >
+            <div class="col-lg-6 my-3 p-4 " id="secondWriteup" >
               <div class="text-center">
 
-              <h2 class="topic display-5">TAKE ABSOLUTE CONTROL</h2>
+                
+              <h3 class="topic display-5 ">TAKE ABSOLUTE CONTROL</h3>
 
                 <p class="lead p-2 ">VR headset controllers allow you to fully immerse yourself in virtual reality experiences. With motion tracking, you can use your hands and body to interact with the virtual environment, giving you a greater sense of presence and engagement comfortably for extended periods of time.</p>
 
@@ -129,27 +125,142 @@
  </div>
 
        <div class="col-lg-6  " id="secondRowImg">
-                <img class="round" src="./assets/images/vr-human-1.png" alt="Human using VR headset" id="img2">
+                <img class="img" src="./assets/images/vr-human-1.png" alt="Human using VR headset" id="">
                </div>
            
           </div>
 
-          
+           <div class="row  text-center" id="fourthDiv">
 
-        <!-- </div> -->
+          <h5 class="display-5 p-4 topic sticky-top">
+            EXPLORE NEW WORLDS
+          </h5>
 
-        <div class="row border-bottom" id="thirdDiv">
+
+        </div>
+
+
+        <div class="container px-4 py-5 border-bottom" id="custom-cards">
+          <h2 class="pb-2 border-bottom text-center">Do everything at once, like never before!</h2>
+      
+          <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+
+            <div class="col">
+
+              <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg bgImg">
+
+                <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+
+                  <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Learning</h3>
+
+                  <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, consequuntur!</p>
+                  <ul class="d-flex list-unstyled mt-auto">
+
+                    <li class="me-auto flex">
+                        <i class="fa-light fa-graduation-cap fa "></i>
+                      </i>
+                    </li>
+
+                    <li class="d-flex align-items-center me-3">
+                      
+                      <i class="bi bi-pin-map p-2"></i>
+                      <!-- <i class="fa-instagram fa p-2"> -->
+
+                      </i>
+                      <small>Classroom</small>
+                    </li>
+
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+
+              <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg bgImg">
+
+                <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+
+                  <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Gaming</h3>
+
+                  <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, consequuntur!</p>
+                  <ul class="d-flex list-unstyled mt-auto">
+
+                    <li class="me-auto flex">
+                      <i class="fa-solid fa-gamepad"></i>
+                      <!-- <i class="fa fa-twitter"> -->
+                    
+                      </i>
+                    </li>
+
+                    <li class="d-flex align-items-center me-3">
+                      <svg class="fa fa-instagram" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+
+                      <i class="bi bi-pin-map p-2"></i>
+                      <!-- <i class="fa-instagram fa p-2"> -->
+
+                      </i>
+                      <small>Living Room</small>
+                    </li>
+
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+
+              <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg bgImg">
+
+                <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+
+                  <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Exercising</h3>
+
+                  <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, consequuntur!</p>
+                  <ul class="d-flex list-unstyled mt-auto">
+
+                    <li class="me-auto flex">
+                      <i class="fa-thin fa-dumbbell fa"></i>
+                      <!-- <i class="fa fa-twitter p-2 flex"> -->
+                    
+                      </i>
+                    </li>
+
+                    <li class="d-flex align-items-center me-3">
+                      <svg class="fa fa-instagram" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+                      <i class="bi bi-pin-map p-2"></i>
+                      <!-- <i class="fa-instagram fa p-2"> -->
+
+                      </i>
+                      <small>Gym</small>
+                    </li>
+
+                  </ul>
+                </div>
+              </div>
+            </div>
+            
+
+          </div>
+        </div>
+
+         
+  
+
+        <div class=" me-md-3 pt-3 px-3 px-md-5 text-center overflow-hidden row border-bottom" id="thirdDiv">
           
-        <div class="col-lg-6 text-center" id="thirdRowImg">
-        <img src="./assets/images/vr-human-4.png" alt="Human using VR headset" id="img3">
+        <div class="col-lg-6 text-center " id="thirdRowImg">
+        <img src="./assets/images/vr-human-4.png" alt="Human using VR headset" id="" class="img">
         </div>
 
         
           <div class="col-lg-6 col-md-12 col-sm-12 text-center" id="thirdWriteup">
 
             <div class="my-3 p-4">
-              <h2 class="display-5 topic"> added comfort & fitting</h2>
+
+              <h4 class="display-5 topic"> with added comfort & fitting</h4>
               <p class="lead">With adjustable straps, cushioned padding and lightweight design, you can wear these devices for extended periods of time without experiencing discomfort, making them ideal for gaming, immersive experiences, and other applications.</p>
+
             </div>
 
           </div>
@@ -157,24 +268,112 @@
           
 
         </div>
+
+        <section class="slice slice-lg p-4 border-bottom">
+            <div class="container">
+              <div class=" flex text-center row">
+                <div class="row  text-center" id="fourthDiv">
+
+                  <h5 class="display-5 p-4 topic sticky-top">
+                    Explore Cross-Platform Compatibility
+                  </h5>
+        
+        
+                </div>
+
+
+                <div class="fluid-paragraph mt-3">
+                  <p class="lead lh-180">You get all Bootstrap components fully customized. Besides, you receive another numerous plugins out of the box and ready to use.</p>
+                </div>
+              </div>
+
       
-        <!-- <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
-          <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-            <div class="my-3 p-3">
-              <h2 class="display-5 text-dark">With extra comfort and fitting</h2>
-              <p class="lead">You can wear these devices for extended periods of time without experiencing discomfort, making them ideal for gaming, immersive experiences, and other applications.</p>
+      
+              <div class="container px-4 py-5" id="custom-cards">
+                <!-- <h2 class="pb-2 border-bottom">Do everything at once, like never before!</h2> -->
+             
+              <div class="row">
+                <div class="col-lg-3 col-sm-6">
+                  <div class="mb-4">
+                    <div class="py-5">
+                      <div class="icon text-primary">
+                        <i class="fas fa-3x fa-tint "></i>
+                      </div>
+                    </div>
+                    <h5 class="">Extended color palette</h5>
+                    <p class=" mt-2 mb-0">A beautiful color palette that can be easily modified with our nicely coded Sass files.</p>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                  <div class="mb-4">
+                    <div class="py-5">
+                      <div class="icon text-primary">
+                        <i class="fas fa-code fa-3x"></i>
+                      </div>
+                    </div>
+                    <h5 class="">15+ integrated plugins</h5>
+                    <p class=" mt-2 mb-0">More functionality with the ready to use plugins we have integrated in this theme for you.</p>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                  <div class="mb-4">
+                    <div class="py-5">
+                      <div class="icon text-primary">
+                        <i class="fas fa-font fa-3x"></i>
+                      </div>
+                    </div>
+                    <h5 class="">1500 vector icons</h5>
+                    <p class=" mt-2 mb-0">One nice collection of icons so you can add a more intuitive and playful touch to your website.</p>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                  <div class="mb-4">
+                    <div class="py-5">
+                      <div class="icon text-primary">
+                        <i class="fas fa-3x fa-grimace"></i>
+                      </div>
+                    </div>
+                    <h5 class="">SVG illustrations</h5>
+                    <p class=" mt-2 mb-0">One nice collection of icons so you can add a more intuitive and playful touch to your website.</p>
+                  </div>
+                </div>
+              </div>
+           
             </div>
-            <div class="bg-dark shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
+
+          </section>
+       
+
+        <!-- <div class="row   text-center" id="fifthDiv">
+
+
+        <div class= "cube col-sm-12 col-md-6 col-lg-3" >
+
+          <div class="row">
+             <img src="./assets/images/vr-img-5.png" alt="" class="img">
+            <p>hello there</p>
+           
+
           </div>
          
         </div>
 
-        <div class="text-bg-primary me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-          <div class="my-3 py-3">
-            <h2 class="display-5">Another headline</h2>
-            <p class="lead">And an even wittier dopp;e.</p>
-          </div>
-          <div class="bg-light shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
+        <div class="border cube col-sm-12 col-md-6 col-lg-3">
+          Gaming
+
+        </div>
+
+
+        <div class="border cube col-sm-12 col-md-6 col-lg-3 ">
+          Exercise
+
+        </div>
+
+        <div class="border cube col-sm-12 col-md-6 col-lg-3 ">
+          Gaming
+
+        </div>
+
         </div> -->
       
         

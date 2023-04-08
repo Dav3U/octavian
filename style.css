@@ -28,44 +28,22 @@
    * Dummy devices (replace them with your own or something else entirely!)
    */
   
-  .product-device {
-    position: absolute;
-    right: 10%;
-    bottom: -30%;
-    width: 300px;
-    height: 540px;
-    background-color: #333;
-    border-radius: 21px;
-    transform: rotate(30deg);
-  }
-  
-  .product-device::before {
-    position: absolute;
-    top: 10%;
-    right: 10px;
-    bottom: 10%;
-    left: 10px;
-    content: "";
-    background-color: rgba(255, 255, 255, .1);
-    border-radius: 5px;
-  }
-  
-  .product-device-2 {
-    top: -25%;
-    right: auto;
-    bottom: 0;
-    left: 5%;
-    background-color: #e5e5e5;
-  }
-  
+
   
   /*
    * Extra utilities
    */
   
+
+   .bg-section-secondary {
+    background-color: #FAFBFE !important;
+} 
+
+
   .flex-equal > * {
     flex: 1;
   }
+
   @media (min-width: 768px) {
     .flex-md-equal > * {
       flex: 1;
@@ -119,7 +97,7 @@
   }
 
 
-  #landingDiv{
+  #landingDiv, #fourthDiv{
     
    display: flex;
    align-items: center;
@@ -136,35 +114,47 @@
 
   
 @media screen and (max-width: 720px) {
+
   #landingDiv {
     min-height: 300px;
     }
 
-    /* #img1{
-      width: 100%;
-    }
-    #img2{
-      width: 100%;
-    } */
+  
+
 }
+
+
 @media screen and (max-width: 991px ) {
  
+  #fifthDiv{
+    min-height: 500px;
+  }
+
 
     .topic {
       /* margin-bottom: 25% */
     }
 }
 
+@media screen and (min-width: 992px ) {
+ 
+  #fifthDiv{
+    min-height: 400px;
+  }
+}
+
+#landingDiv img, .img{
+  width: 85%;
+  padding: 15px;
+  
+}
+/* 
   #img1{
     width: 85%;
     padding: 15px;
-  }
+  } */
 
-  #img2{
-      /* border-radius: 10px; */
-      /* box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); */
-      width: 80%;
-  }
+ 
 
  #img3{
   
@@ -188,7 +178,9 @@
 }
 
 .landingWriteup{
+ font-size: 3rem;
 
+  font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
   font-size: 1.4em;
   /* background-color: rgba(0, 0, 0, .05); */
   /* top: 1% */
@@ -225,16 +217,44 @@ div .imp2{
 }
 
 
-#secondRowImg, #thirdWriteup, #secondWriteup, #thirdRowImg
+#secondRowImg, #thirdWriteup, #secondWriteup, #thirdRowImg , .cube
 {
-
-  display: flex;
-   align-items: center;
+    display: flex;
+    align-items: center;
     justify-content: center;
 }
 
 
 
+.flex{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
 .round{
 /* border-radius: 70%; */
+}
+
+.bgImg{
+  background-image: url(./assets/images/vr-human-1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+  
+#fourthDiv, .size {
+  min-height: 200px;
+}
+
+
+#fifthDiv{
+  min-height: 300px; 
+  border: 1px solid red;
+}
+
+.cube{
+  min-height: 250px;
+  /* border: 1px solid red; */
+  /* border-radius: 5%; */
 }

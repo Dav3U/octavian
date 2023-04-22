@@ -216,6 +216,9 @@ div .imp2{
   border-radius: 150px;
 }
 
+#secondWriteup{
+
+}
 
 #secondRowImg, #thirdWriteup, #secondWriteup, #thirdRowImg , .cube
 {
@@ -238,9 +241,30 @@ div .imp2{
 }
 
 .bgImg{
-  background-image: url(./assets/images/vr-human-1.png);
+  /* background-image: url(./assets/images/vr-human-1.png); */
   background-size: cover;
   background-repeat: no-repeat;
+
+}
+
+.bgImg1{
+  background-image: url(./assets/images/vr-human-learning.webp);
+
+}
+
+
+.bgImg2{
+  background-image: url(./assets/images/vr-human-gaming.jpg);
+
+}
+
+.bgImg3{
+  background-image: url(./assets/images/vr-human-exercise.jpg);
+
+}
+
+.imgg{
+  background: aqua;
 }
   
 #fourthDiv, .size {
@@ -255,6 +279,4 @@ div .imp2{
 
 .cube{
   min-height: 250px;
-  /* border: 1px solid red; */
-  /* border-radius: 5%; */
 }

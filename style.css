@@ -118,11 +118,18 @@
   #landingDiv {
     min-height: 300px;
     }
-
-  
-
 }
 
+@media screen and (max-width: 576px) {
+
+  #compatDiv {
+    text-align: center;
+    }
+
+    .feature{
+      padding: 30px;
+    }
+}
 
 @media screen and (max-width: 991px ) {
  
@@ -244,6 +251,7 @@ div .imp2{
   /* background-image: url(./assets/images/vr-human-1.png); */
   background-size: cover;
   background-repeat: no-repeat;
+  opacity: 0.9;
 
 }
 
@@ -260,6 +268,7 @@ div .imp2{
 
 .bgImg3{
   background-image: url(./assets/images/vr-human-exercise.jpg);
+  font-weight: bold;
 
 }
 
@@ -279,4 +288,17 @@ div .imp2{
 
 .cube{
   min-height: 250px;
+}
+
+.card-topic{
+
+}
+
+ .width-100{
+  width: 100%;
+  /* border: 1px solid red; */
+}
+
+.pad{
+  padding: 10px;
 }

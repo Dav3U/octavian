@@ -48,8 +48,12 @@
 
         document.getElementById("thirdWriteup").classList.add('order-first')
 
+        document.getElementById("secondRowImg").classList.add('order-first')
+
     } else {
         document.getElementById("thirdWriteup").classList.remove('order-first')
+
+        document.getElementById("secondRowImg").classList.remove('order-first')
 
     }
   }

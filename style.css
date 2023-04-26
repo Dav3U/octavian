@@ -6,9 +6,6 @@
     scroll-behavior: smooth;
   }
   
-  /*
-   * Custom translucent site header
-   */
   
   .site-header {
     background-color: rgba(0, 0, 0, .85);
@@ -24,17 +21,6 @@
     text-decoration: none;
   }
   
-  /*
-   * Dummy devices (replace them with your own or something else entirely!)
-   */
-  
-
-  
-  /*
-   * Extra utilities
-   */
-  
-
    .bg-section-secondary {
     background-color: #FAFBFE !important;
 } 
@@ -85,15 +71,10 @@
   }
 
   #main{
-
-    /* font-size: 2vw; */
   }
 
   .topic{
     font-family: copperplate;
-    
-    /* font-weight: bold; */
-    /* padding:10px; */
   }
 
 
@@ -102,15 +83,9 @@
    display: flex;
    align-items: center;
     justify-content: center;
-    /* min-height: 300px; */
-    /* text-align: center; */
     padding: 0;
-
-   
-
-    /* color: white; */
-  
   }
+
 
   
 @media screen and (max-width: 720px) {
@@ -137,9 +112,16 @@
     min-height: 500px;
   }
 
+  #landingDiv {
+    text-align: center;
+    }
 
     .topic {
       /* margin-bottom: 25% */
+    }
+
+    #thirdWriteup, #thirdDiv, .centerDiv{
+      text-align: center;
     }
 }
 
@@ -155,13 +137,6 @@
   padding: 15px;
   
 }
-/* 
-  #img1{
-    width: 85%;
-    padding: 15px;
-  } */
-
- 
 
  #img3{
   
@@ -198,26 +173,11 @@
   text-align: left;
 }
 
-
-div .imp{
- 
-
-}
-
-div .imp2{
-
-}
-
-#secondDiv, #thirdDiv{
+#landingDiv, #secondDiv, #thirdDiv{
 
   min-height: 600px;
 
 }
-
-/* #img2{
-  margin: 0;
-  width: 40%;
-} */
 
 #controllerDiv{
   border-radius: 150px;
@@ -227,14 +187,12 @@ div .imp2{
 
 }
 
-#secondRowImg, #thirdWriteup, #secondWriteup, #thirdRowImg , .cube
+#secondRowImg, #thirdWriteup, #secondWriteup , .cube
 {
     display: flex;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
 }
-
-
 
 .flex{
   display: flex;
@@ -262,7 +220,7 @@ div .imp2{
 
 
 .bgImg2{
-  background-image: url(./assets/images/vr-human-gaming.jpg);
+  background-image: url(./assets/images/vr-human-1-bg.jpg);
 
 }
 
@@ -283,7 +241,7 @@ div .imp2{
 
 #fifthDiv{
   min-height: 300px; 
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 .cube{
@@ -302,3 +260,24 @@ div .imp2{
 .pad{
   padding: 10px;
 }
+
+.theme{
+color: #9da2ff;
+}
+
+#shopBtn{
+  /* color: white; */
+}
+
+div .theme-bg, #shopBtn, #testCompatBtn{
+  background-color: #9da2ff;
+  color: white;
+  }
+
+  .sales-row {
+    /* background-color: #f8f8f8; */
+    /* padding: 50px 20px; */
+    text-align: center;
+    min-height: 300px;
+  }
+  

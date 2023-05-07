@@ -3,6 +3,6 @@ The major objective of Octavian is to complete the sale of a product using a vis
 # Architecture
 Octavian was developed using the agile methodology and implemented using HTML, CSS , Bootstrap and Javascript technologies.
 # Functionality
-Octavian is fully responsive across all mobile and web platforms and it also contains a shop button (purchase) and Color mode toggle functionality.
-#Maintenance
+Octavian is fully responsive, cointains a color mode toggle and other button opeartions. 
+# Maintenance
 Octavian will recieve periodic performance updates.  

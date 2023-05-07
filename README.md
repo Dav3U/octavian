@@ -1,5 +1,5 @@
 # Octavian: The Product Sales Website.
-The major objective of Octavian is to succesfully complete the sale of a product to a consumer via a well-doctored and concise approach.
+The major objective of Octavian is to complete the sale of a product using a visually appealing and concise approach.
 # Architecture
 Octavian was developed using the agile methodology and implemented using HTML, CSS , Bootstrap and Javascript technologies.
 # Functionality

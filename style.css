@@ -6,9 +6,6 @@
     scroll-behavior: smooth;
   }
   
-  /*
-   * Custom translucent site header
-   */
   
   .site-header {
     background-color: rgba(0, 0, 0, .85);
@@ -24,62 +21,32 @@
     text-decoration: none;
   }
   
-  /*
-   * Dummy devices (replace them with your own or something else entirely!)
-   */
-  
-  .product-device {
-    position: absolute;
-    right: 10%;
-    bottom: -30%;
-    width: 300px;
-    height: 540px;
-    background-color: #333;
-    border-radius: 21px;
-    transform: rotate(30deg);
-  }
-  
-  .product-device::before {
-    position: absolute;
-    top: 10%;
-    right: 10px;
-    bottom: 10%;
-    left: 10px;
-    content: "";
-    background-color: rgba(255, 255, 255, .1);
-    border-radius: 5px;
-  }
-  
-  .product-device-2 {
-    top: -25%;
-    right: auto;
-    bottom: 0;
-    left: 5%;
-    background-color: #e5e5e5;
-  }
-  
-  
-  /*
-   * Extra utilities
-   */
-  
+   .bg-section-secondary {
+    background-color: #FAFBFE !important;
+} 
+
+
   .flex-equal > * {
     flex: 1;
   }
+
   @media (min-width: 768px) {
     .flex-md-equal > * {
       flex: 1;
     }
+
+  
   }
 
   .navbar{
+    padding: 20px;
 
   }
 
   #offcanvasNavbar{
     padding-top: 1%;
     text-align: center;
-    width:70vw ;
+    /* width:65vw ; */
   }
 
   /* #navbarBrand, .brandIcon{
@@ -91,6 +58,7 @@
     color: #210460;
 
   }
+
   .set{
     display: inline;
   }
@@ -102,16 +70,214 @@
 
   }
 
-  #landingDiv{
-    
-    /* background-image: url(./var-headset-4.jpg); */
-    /* color: white;
-    background: linear-gradient(  to  right, #100130f8,#170246);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center; */
-
-    
+  #main{
   }
 
+  .topic{
+    font-family: copperplate;
+  }
+
+
+  #landingDiv, #fourthDiv{
+    
+   display: flex;
+   align-items: center;
+    justify-content: center;
+    padding: 0;
+  }
+
+
+  
+@media screen and (max-width: 720px) {
+
+  #landingDiv {
+    min-height: 300px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+
+  #compatDiv {
+    text-align: center;
+    }
+
+    .feature{
+      padding: 30px;
+    }
+}
+
+@media screen and (max-width: 991px ) {
  
+  #fifthDiv{
+    min-height: 500px;
+  }
+
+  #landingDiv {
+    text-align: center;
+    }
+
+    .topic {
+      /* margin-bottom: 25% */
+    }
+
+    #thirdWriteup, #thirdDiv, .centerDiv{
+      text-align: center;
+    }
+}
+
+@media screen and (min-width: 992px ) {
+ 
+  #fifthDiv{
+    min-height: 400px;
+  }
+}
+
+#landingDiv img, .img{
+  width: 85%;
+  padding: 15px;
+  
+}
+
+ #img3{
+  
+  width: 80%;
+}
+
+#shopNowBtn{
+  font-size:larger;
+  /* padding: 10px; */
+}
+
+
+#shopNowBtn:hover{
+  background-color: #333;
+
+  color: rgba(255, 255, 255, 0.841);
+}
+
+#offcanvasNavbarLabel{
+  /* font-size: 2vw; */
+}
+
+.landingWriteup{
+ font-size: 3rem;
+
+  font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 1.4em;
+  /* background-color: rgba(0, 0, 0, .05); */
+  /* top: 1% */
+  /* width: 40%; */
+}
+
+.writeup{
+  text-align: left;
+}
+
+#landingDiv, #secondDiv, #thirdDiv{
+
+  min-height: 600px;
+
+}
+
+#controllerDiv{
+  border-radius: 150px;
+}
+
+#secondWriteup{
+
+}
+
+#secondRowImg, #thirdWriteup, #secondWriteup , .cube
+{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.flex{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.round{
+/* border-radius: 70%; */
+}
+
+.bgImg{
+  /* background-image: url(./assets/images/vr-human-1.png); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.9;
+
+}
+
+.bgImg1{
+  background-image: url(./assets/images/vr-human-learning.webp);
+
+}
+
+
+.bgImg2{
+  background-image: url(./assets/images/vr-human-1-bg.jpg);
+
+}
+
+.bgImg3{
+  background-image: url(./assets/images/vr-human-exercise.jpg);
+  font-weight: bold;
+
+}
+
+.imgg{
+  background: aqua;
+}
+  
+#fourthDiv, .size {
+  min-height: 200px;
+}
+
+
+#fifthDiv{
+  min-height: 300px; 
+  /* border: 1px solid red; */
+}
+
+.cube{
+  min-height: 250px;
+}
+
+.card-topic{
+
+}
+
+ .width-100{
+  width: 100%;
+  /* border: 1px solid red; */
+}
+
+.pad{
+  padding: 10px;
+}
+
+.theme{
+color: #9da2ff;
+}
+
+#shopBtn{
+  /* color: white; */
+}
+
+div .theme-bg, #shopBtn, #testCompatBtn{
+  background-color: #9da2ff;
+  color: white;
+  }
+
+  .sales-row {
+    /* background-color: #f8f8f8; */
+    /* padding: 50px 20px; */
+    text-align: center;
+    min-height: 300px;
+  }
+  

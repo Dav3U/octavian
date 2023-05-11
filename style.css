@@ -24,6 +24,15 @@
     padding: 20px;
 
   }
+
+  #toggleBtn:focus {
+    outline: none; /* remove outline on focus */
+  }
+  
+  #toggleBtn:active,
+  #toggleBtn:focus {
+    border: none; /* remove border on click/active/focus */
+  }
   
   #offcanvasNavbar{
     padding-top: 1%;
@@ -266,3 +275,4 @@ div .theme-bg, #shopBtn1, #shopBtn2, #testCompatBtn{
   .display-inline{
     display: inline;
 }
+

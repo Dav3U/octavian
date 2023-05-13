@@ -53,7 +53,6 @@ function modeChange(){
 }
 
 
-
   function changeOrder(x) {
     if (x.matches) {
 
@@ -72,3 +71,7 @@ function modeChange(){
   var x = window.matchMedia("(max-width: 992px)")
   changeOrder(x) // Call listener function at run time
   x.addListener(changeOrder) // Attach listener function on state changes
+
+  function closeNav() {
+    document.getElementById("toggleBtn").click();
+  }

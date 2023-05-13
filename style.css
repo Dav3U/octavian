@@ -106,8 +106,6 @@
   #navbarBrandNav{
     display: none;
   }
-  
- 
   }
 
 @media screen and (max-width: 576px) {
@@ -158,7 +156,6 @@
   font-size:larger;
   /* padding: 10px; */
 }
-
 
 #shopNowBtn:hover{
   background-color: #333;
@@ -217,7 +214,6 @@
 
 }
 
-
 .bgImg2{
   background-image: url(./assets/images/vr-human-1-bg.jpg);
 
@@ -236,7 +232,6 @@
 #fourthDiv, .size {
   min-height: 200px;
 }
-
 
 #fifthDiv{
   min-height: 300px; 
@@ -276,3 +271,6 @@ div .theme-bg, #shopBtn1, #shopBtn2, #testCompatBtn{
     display: inline;
 }
 
+#vr-checkout{
+  font-size: 1.8em;
+}

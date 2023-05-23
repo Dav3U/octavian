@@ -75,3 +75,7 @@ function modeChange(){
   function closeNav() {
     document.getElementById("toggleBtn").click();
   }
+
+  function home(){
+    window.open(index.html)
+  }

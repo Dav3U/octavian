@@ -274,3 +274,8 @@ div .theme-bg, #shopBtn1, #shopBtn2, #testCompatBtn{
 #vr-checkout{
   font-size: 1.8em;
 }
+
+#checkoutBtn:hover , #redeemBtn:hover{
+  background-color: #595d99;
+  color: white;
+}
